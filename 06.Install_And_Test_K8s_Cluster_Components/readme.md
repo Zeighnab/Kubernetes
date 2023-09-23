@@ -14,3 +14,5 @@ Once the cluster has been built and you have verified all nodes are in the ready
 * Verify the NGINX version on the pod
 
 * Create a service for the deployment on port `80`
+
+![](./img/CKA-LABS_%20Installing%20and%20Testing%20the%20Components%20of%20a%20Kubernetes%20Cluster.png)
