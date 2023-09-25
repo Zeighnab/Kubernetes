@@ -29,10 +29,17 @@ kubectl create -f prod-deployment.yaml
 kubectl get pods -o wide
 ```
 
+![](./img/2.png)
+
+* Note: The pods are both scheduled in the untainted node
+
 6. Scale up the deployment
 ```
 kubectl scale deployment/prod --replicas=3
 
 kubectl get pods -o wide
 ```
-* Note: Two more pods would have been deployed in the node with toleration.
+
+![](./img/3.png)
+
+* Note: Two more pods have been deployed in the node with toleration.
