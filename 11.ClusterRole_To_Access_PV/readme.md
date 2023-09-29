@@ -9,3 +9,5 @@ Access the Kubernetes cluster within this lab environment. Within the cluster, a
 * By default, pods cannot access PVs directly, so you will need to create a `ClusterRole` and test the access after it's been created. 
 
 * Every ClusterRole requires a `ClusterRoleBinding` to bind the role to a user, service account, or group. After you have created the ClusterRole and ClusterRoleBinding, try to access the PV directly from a pod.
+
+![](./img/CKA-LABS_%20Creating%20a%20ClusterRole%20to%20access%20a%20PV%20in%20Kubernetes.png)
