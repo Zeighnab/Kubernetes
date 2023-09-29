@@ -1,6 +1,6 @@
-### Service discovery is a mechanism by which services discover each other dynamically without the need for hard coding IP addresses or endpoint configuration
+Service discovery is a mechanism by which services discover each other dynamically without the need for hard coding IP addresses or endpoint configuration
 
-### Kubernetes service discovery is an abstraction that allows an application running on a set of Pods to be exposed as a network service. This enables a set of Pods to run using a single DNS name, and allows Kubernetes load balancing across them all. This way as Pods are dynamically created and destroyed on demand, frontends and backends can continue to function and connect
+Kubernetes service discovery is an abstraction that allows an application running on a set of Pods to be exposed as a network service. This enables a set of Pods to run using a single DNS name, and allows Kubernetes load balancing across them all. This way as Pods are dynamically created and destroyed on demand, frontends and backends can continue to function and connect
 
 
 ## Tasks:
