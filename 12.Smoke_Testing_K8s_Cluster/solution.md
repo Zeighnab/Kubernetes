@@ -60,7 +60,7 @@ curl --head http://127.0.0.1:8081
 
 ![](./img/3.png)
 
-## Verify You Can Access Container Logs with kubectl Logs
+## Verify Access to Container Logs with `kubectl logs`
 
 * Get the logs from the nginx pod
 ```
@@ -74,7 +74,7 @@ kubectl logs $POD_NAME
 
 ![](./img/4.png)
 
-## Verify You Can Execute Commands Inside a Container with kubectl exec
+## Verify Execution Commands Inside a Container with `kubectl exec`
 
 * Execute a simple nginx -v command inside the nginx pod
 ```
@@ -88,7 +88,7 @@ nginx version: nginx/1.15.3
 
 ![](./img/5.png)
 
-## Verify Services Work
+## Verify Services Works
 
 * Create a service to expose the nginx deployment
 ```
