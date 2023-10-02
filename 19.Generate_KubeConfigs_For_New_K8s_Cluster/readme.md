@@ -36,7 +36,7 @@ Here is the cluster architecture. Note that these are not real servers, just val
 
 * Hostname: kubernetes.mylabserver.com, IP: 172.34.2.0
 
-* Notes:
+### Notes:
 
 Client certificates have already been created. They can be found in `/home/cloud_user` on the workspace server.
 
