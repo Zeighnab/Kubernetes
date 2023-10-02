@@ -16,15 +16,17 @@ Your team is working on setting up a Kubernetes cluster with two controllers and
 
 Here is the cluster architecture for which you will need to generate certificates. Note that these are not real servers, just values that we will use for the purposes of this activity.
 
-Controllers:
+* Controllers: 
 
-Hostname: controller0.mylabserver.com, IP: 172.34.0.0
+Hostname: controller0.mylabserver.com, IP: 172.34.0.0 
 Hostname: controller1.mylabserver.com, IP: 172.34.0.1
-Workers:
 
-Hostname: worker0.mylabserver.com, IP: 172.34.1.0
+* Workers: 
+
+Hostname: worker0.mylabserver.com, IP: 172.34.1.0 
 Hostname: worker1.mylabserver.com, IP: 172.34.1.1
-Kubernetes API Load Balancer:
+
+* Kubernetes API Load Balancer: 
 
 Hostname: kubernetes.mylabserver.com, IP: 172.34.2.0
 
