@@ -22,19 +22,19 @@ Here is the cluster architecture. Note that these are not real servers, just val
 
 1. Controllers
 
-Hostname: controller0.mylabserver.com, IP: 172.34.0.0
+* Hostname: controller0.mylabserver.com, IP: 172.34.0.0
 
-Hostname: controller1.mylabserver.com, IP: 172.34.0.1
+* Hostname: controller1.mylabserver.com, IP: 172.34.0.1
 
 2. Workers
 
-Hostname: worker0.mylabserver.com, IP: 172.34.1.0
+* Hostname: worker0.mylabserver.com, IP: 172.34.1.0
 
-Hostname: worker1.mylabserver.com, IP: 172.34.1.1
+* Hostname: worker1.mylabserver.com, IP: 172.34.1.1
 
 3. Kubernetes API Load Balancer:
 
-Hostname: kubernetes.mylabserver.com, IP: 172.34.2.0
+* Hostname: kubernetes.mylabserver.com, IP: 172.34.2.0
 
 * Notes:
 
